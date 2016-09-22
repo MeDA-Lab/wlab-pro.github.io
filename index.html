@@ -140,18 +140,19 @@
 							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 							<div class="split style1">
 								<section>
-									<form id="formspree" method="POST" action="http://formspree.io/admin@wlab.pro">
+									<form id="formspree" method="post" action="https://formspree.io/admin@wlab.pro">
+										<input type="hidden" name="_next" value="thanks.html">
 										<div class="field half first">
 											<label for="name">Name</label>
-											<input type="text" name="name" placeholder="Your Name" />
+											<input type="text" name="name" id="name" />
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="email" placeholder="Your Email" />
+											<input type="text" name="email" id="email" />
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="message" rows="5"></textarea>
+											<textarea name="message" id="message" rows="5"></textarea>
 										</div>
 										<ul class="actions">
 											<input type="submit" value="Send Message">
@@ -170,7 +171,7 @@
 										</li>
 										<li>
 											<h3>Email</h3>
-											<a href="mailto:wwang@ntu.edu.tw">admin@wlab.pro</a>
+											<a href="mailto:admin@wlab.pro">admin@wlab.pro</a>
 										</li>
 										<li>
 											<h3>Phone</h3>
@@ -198,7 +199,7 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; WLab. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>Powered by: <a href="https://wlab.pro">WLab</a></li><li>Template: <a href="https://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
