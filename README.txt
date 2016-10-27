@@ -1,14 +1,12 @@
-Hyperspace by HTML5 UP
+Stellar by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-So I've had the wireframe for this particular design kicking around for some time, but with all
-the other interesting (and in some cases, semi-secret) projects I've been working on it took me
-a little while to get to actually designing and coding it. Fortunately, things have eased up
-enough for me to finaly get around to it, so I'm happy to introduce Hyperspace: a fun, blocky,
-one-page design with a lot of color, a bit of animation, and an additional "generic" page template
-(because hey, even one-page sites usually need an interior page or two). Hope you dig it :)
+Say hello to Stellar, a slick little one-pager with a super vibrant color palette (which
+I guess you can always tone down if it's a little too vibrant for you), a "sticky" in-page
+nav bar (powered by my Scrollex plugin), a separate generic page template (just in case
+you need one), and an assortment of pre-styled elements.
 
 Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
 you can use for pretty much whatever.
@@ -30,6 +28,7 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		Misc. Sass functions (@HugoGiraudel)
+		CSS3 Pie (css3pie.com)
 		Respond.js (j.mp/respondjs)
+		Scrollex (@ajlkn)
 		Skel (skel.io)
