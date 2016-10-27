@@ -2383,7 +2383,8 @@
 		@media screen and (max-width: 736px) {
 
 			.icon.major {
-				margin: 0 0 1.5em 0;
+				margin-top: 4em;
+				margin-bottom: 2em;
 				padding: 0.35em;
 			}
 
@@ -3033,14 +3034,6 @@
 			border: solid 1px;
 		}
 
-			.spotlight .image .marginleft {
-				margin-left: 4em;
-			}
-
-			.spotlight .image .marginright {
-				margin-right: 4em;
-			}
-
 			.spotlight .image img {
 				display: block;
 				border-radius: 100%;
@@ -3085,7 +3078,7 @@
 
 			.spotlight .image {
 				margin-top: 4em;
-				margin-bottom: 4em;
+				margin-bottom: 2em;
 				padding: 0.35em;
 			}
 
@@ -3098,6 +3091,28 @@
 	.spotlight .image {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
+
+/* Margin Left/Right */
+
+		.marginleft {
+			margin-left: 2em;
+		}
+
+		.marginright {
+			margin-right: 2em;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.marginleft {
+				margin-left: 0em;
+			}
+
+			.marginright {
+				margin-right: 0em;
+			}
+
+		}
 
 /* Header */
 
@@ -3349,38 +3364,29 @@
 					font-size: 0.9em;
 				}
 
-				#nav ul li:first-child {
-					display: none;
-				}
-
-		@media screen and (max-width: 736px) {
-
-			#nav ul li:first-child {
-				display: inline;
-			}
-
-			#nav ul li:not(:first-child) {
+			#nav .navicon {
 				display: none;
 			}
 
-			#nav ul li {
+		@media screen and (max-width: 736px) {
+
+			#nav .navicon {
+				display: block;
 				float: right;
-				display: inline-block;
+			}
+
+			#nav ul li {
+				display: none;
+				float: none;
 			}
 
 			#nav ul.responsive {
 				position: relative;
 			}
 
-			#nav ul.responsive li.icon {
-				position: absolute;
-				right: 0;
-				top: 0;
-			}
-
 			#nav ul.responsive li {
-				float: none;
 				display: inline;
+				float: none;
 			}
 
 			#nav ul.responsive li a {

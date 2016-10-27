@@ -1,8 +1,11 @@
 document.write("<nav id=\"nav\">");
-document.write("	<ul class=\"topnav\" id=\"topnav\">");
-document.write("		<li class=\"icon\">");
-document.write("			<a href=\"javascript:void(0);\" onclick=\"opentopnav()\">&#9776;<\/a>");
+document.write("	<ul>");
+document.write("		<li class=\"navicon\">");
+document.write("			<a href=\"javascript:void(0);\" onclick=\"opennavmenu()\" class=\"icon fa-bars\"><\/a>");
 document.write("		<\/li>");
+document.write("		<br class=\"navicon\">");
+document.write("	<\/ul>");
+document.write("	<ul id=\"navmenu\">");
 document.write("		<li><a href=\"index.html\">Home<\/a><\/li>");
 document.write("		<li><a href=\"member\/index.html\">Members<\/a><\/li>");
 document.write("		<li><a href=\"project\/mcnla\/index.html\">MCNLA<\/a><\/li>");
@@ -18,11 +21,11 @@ for ( var i = 0; i < navlist.length; i++ ) {
 	}
 }
 
-function opentopnav() {
-    var x = document.getElementById("topnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
+function opennavmenu() {
+	var x = document.getElementById("navmenu");
+	if (x.className === "responsive") {
+		x.className = "";
+	} else {
+		x.className = "responsive";
+	}
 }
