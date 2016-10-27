@@ -3033,13 +3033,13 @@
 			border: solid 1px;
 		}
 
-		.spotlight .right {
-			margin-left: 4em;
-		}
+			.spotlight .image .marginleft {
+				margin-left: 4em;
+			}
 
-		.spotlight .left {
-			margin-right: 4em;
-		}
+			.spotlight .image .marginright {
+				margin-right: 4em;
+			}
 
 			.spotlight .image img {
 				display: block;
@@ -3084,6 +3084,8 @@
 		@media screen and (max-width: 736px) {
 
 			.spotlight .image {
+				margin-top: 4em;
+				margin-bottom: 4em;
 				padding: 0.35em;
 			}
 
@@ -3254,6 +3256,7 @@
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
+		z-index: 10000;
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3336,7 +3339,6 @@
 			background-color: rgba(247, 247, 247, 0.95);
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
-			z-index: 10000;
 		}
 
 			#nav.alt ul li {
@@ -3347,15 +3349,64 @@
 					font-size: 0.9em;
 				}
 
+				#nav ul li:first-child {
+					display: none;
+				}
+
 		@media screen and (max-width: 736px) {
 
-			#nav {
+			#nav ul li:first-child {
+				display: inline;
+			}
+
+			#nav ul li:not(:first-child) {
 				display: none;
 			}
 
-				#nav + #main {
-					padding-top: 0;
-				}
+			#nav ul li {
+				float: right;
+				display: inline-block;
+			}
+
+			#nav ul.responsive {
+				position: relative;
+			}
+
+			#nav ul.responsive li.icon {
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+
+			#nav ul.responsive li {
+				float: none;
+				display: inline;
+			}
+
+			#nav ul.responsive li a {
+				display: block;
+				text-align: right;
+			}
+
+			#nav + #main {
+				padding-top: 0;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#nav {
+				max-width: calc(100% - 2em);
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			#nav {
+				max-width: 100%;
+			}
 
 		}
 
