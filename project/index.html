@@ -8,12 +8,7 @@
 	<base href="..">
 	<head>
 		<title>WLab ~ Projects</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script src="include/head.js"></script>
 	</head>
 	<body>
 
@@ -27,13 +22,7 @@
 					</header>
 
 				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="member/index.html">Members</a></li>
-							<li><a href="project/index.html" class="active">Projects</a></li>
-						</ul>
-					</nav>
+					<script src="include/nav.js"></script>
 
 				<!-- Main -->
 					<div id="main">
@@ -43,7 +32,27 @@
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
+											<h2>MCNLA</h2>
+											<h3>Monte Carlo Numerical Linear Algebra Package</h3>
+										</header>
+										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
+										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
+										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+										<ul class="actions">
+											<li><a href="project/mcnla/index.html" class="button">Know More</a></li>
+										</ul>
+									</div>
+									<span class="icon major style1 fa-code right"></span>
+								</div>
+							</section>
+
+							<section id="isvd" class="main">
+								<div class="spotlight">
+									<span class="icon major style1 fa-copy left"></span>
+									<div class="content">
+										<header class="major">
 											<h2>iSVD</h2>
+											<h3>Integrated Singular Value Decomposition</h3>
 										</header>
 										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
 										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
@@ -52,16 +61,15 @@
 											<li><a href="project/isvd/index.html" class="button">Know More</a></li>
 										</ul>
 									</div>
-									<span class="icon major style1 fa-code right"></span>
 								</div>
 							</section>
 
 							<section id="pass" class="main">
 								<div class="spotlight">
-									<span class="icon major style1 fa-copy left"></span>
 									<div class="content">
 										<header class="major">
 											<h2>PaSS</h2>
+											<h3>Particle Swarm Stepwise Algorithm</h3>
 										</header>
 										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
 										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
@@ -70,36 +78,20 @@
 											<li><a href="project/pass/index.html" class="button">Know More</a></li>
 										</ul>
 									</div>
+									<span class="icon major style1 fa-diamond right"></span>
 								</div>
 							</section>
 
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<ul class="icons">
-								<li><a href="mailto:wlab@wlab.pro" class="icon fa-envelope alt" target="_blank"><span class="label">Email</span></a></li>
-								<li><a href="https://github.com/wlab-pro" class="icon fa-github alt" target="_blank"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon fa-google-plus alt" target="_blank"><span class="label">Google+</span></a></li>
-								<li><a href="#" class="icon fa-youtube alt" target="_blank"><span class="label">Youtube</span></a></li>
-								<li><a href="#" class="icon fa-facebook alt" target="_blank"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-twitter alt" target="_blank"><span class="label">Twitter</span></a></li>
-							</ul>
-						</section>
-						<p class="copyright">Copyright &copy; <a href="https://wlab.pro">WLab</a> | Designed by <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
+					<script src="include/footer.js"></script>
 
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="include/script.js"></script>
+			<script src="include/nav-script.js"></script>
 
 	</body>
 </html>
