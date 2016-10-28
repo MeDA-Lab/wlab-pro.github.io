@@ -2383,8 +2383,6 @@
 		@media screen and (max-width: 736px) {
 
 			.icon.major {
-				margin-top: 4em;
-				margin-bottom: 2em;
 				padding: 0.35em;
 			}
 
@@ -3040,6 +3038,33 @@
 				width: 16em;
 			}
 
+		@media screen and (min-width: 981px) {
+
+			.spotlight.style1 {
+				flex-direction: row;
+			}
+
+				.spotlight.style1 .image {
+					margin-left: 2em;
+				}
+
+				.spotlight.style1 .icon {
+					margin-left: 2em;
+				}
+
+			.spotlight.style2 {
+				flex-direction: row-reverse;
+			}
+
+				.spotlight.style2 .image {
+					margin-right: 2em;
+				}
+
+				.spotlight.style2 .icon {
+					margin-right: 2em;
+				}
+		}
+
 		@media screen and (max-width: 980px) {
 
 			.spotlight {
@@ -3077,8 +3102,6 @@
 		@media screen and (max-width: 736px) {
 
 			.spotlight .image {
-				margin-top: 4em;
-				margin-bottom: 2em;
 				padding: 0.35em;
 			}
 
@@ -3091,28 +3114,6 @@
 	.spotlight .image {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
-
-/* Margin Left/Right */
-
-		.marginleft {
-			margin-left: 2em;
-		}
-
-		.marginright {
-			margin-right: 2em;
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.marginleft {
-				margin-left: 0em;
-			}
-
-			.marginright {
-				margin-right: 0em;
-			}
-
-		}
 
 /* Header */
 
@@ -3364,9 +3365,12 @@
 					font-size: 0.9em;
 				}
 
+		@media screen and (min-width: 737px) {
+
 			#nav .navicon {
 				display: none;
 			}
+		}
 
 		@media screen and (max-width: 736px) {
 
@@ -3392,10 +3396,6 @@
 			#nav ul.responsive li a {
 				display: block;
 				text-align: right;
-			}
-
-			#nav + #main {
-				padding-top: 0;
 			}
 
 		}
@@ -3782,10 +3782,7 @@
 		}
 
 		#footer .copyright {
-			width: 100%;
-			margin: 2.5em 0 2em 0;
 			font-size: 0.8em;
-			text-align: center;
 		}
 
 		@media screen and (max-width: 1280px) {
