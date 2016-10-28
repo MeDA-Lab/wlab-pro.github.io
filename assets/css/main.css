@@ -2349,18 +2349,22 @@
 		}
 
 		.icon.style2 {
-			color: #c79cc8;
+			color: #fedcba;
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #c79cc8;
 		}
 
 		.icon.style4 {
-			color: #9bb2e1;
+			color: #a89cc8;
 		}
 
 		.icon.style5 {
+			color: #9bb2e1;
+		}
+
+		.icon.style6 {
 			color: #8cc9f0;
 		}
 
@@ -2916,18 +2920,22 @@
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #fedcba;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #c79cc8;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #a89cc8;
 			}
 
 			.statistics li.style5 {
+				background-color: #9bb2e1;
+			}
+
+			.statistics li.style6 {
 				background-color: #8cc9f0;
 			}
 
@@ -3152,10 +3160,10 @@
 			}
 
 			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
-				transition: opacity 1.25s ease, transform 0.5s ease;
+				-moz-transition: opacity 1.25s ease, -moz-transform 1s ease;
+				-webkit-transition: opacity 1.25s ease, -webkit-transform 1s ease;
+				-ms-transition: opacity 1.25s ease, -ms-transform 1s ease;
+				transition: opacity 1.25s ease, transform 1s ease;
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
@@ -3248,10 +3256,10 @@
 		}
 
 		body.is-loading #header.alt .logo {
-			-moz-transform: scale(0.8) rotate(-30deg);
-			-webkit-transform: scale(0.8) rotate(-30deg);
-			-ms-transform: scale(0.8) rotate(-30deg);
-			transform: scale(0.8) rotate(-30deg);
+			-moz-transform: scale(0.8) rotate(-60deg);
+			-webkit-transform: scale(0.8) rotate(-60deg);
+			-ms-transform: scale(0.8) rotate(-60deg);
+			transform: scale(0.8) rotate(-60deg);
 		}
 
 /* Nav */
