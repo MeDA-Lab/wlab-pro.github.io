@@ -3152,18 +3152,18 @@
 				-webkit-transition: opacity 3s ease;
 				-ms-transition: opacity 3s ease;
 				transition: opacity 3s ease;
-				-moz-transition-delay: 0.5s;
-				-webkit-transition-delay: 0.5s;
-				-ms-transition-delay: 0.5s;
-				transition-delay: 0.5s;
+				-moz-transition-delay: 3s;
+				-webkit-transition-delay: 3s;
+				-ms-transition-delay: 3s;
+				transition-delay: 3s;
 				opacity: 1;
 			}
 
 			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 1s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 1s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 1s ease;
-				transition: opacity 1.25s ease, transform 1s ease;
+				-moz-transition: opacity 1.25s ease, -moz-transform 3s ease;
+				-webkit-transition: opacity 1.25s ease, -webkit-transform 3s ease;
+				-ms-transition: opacity 1.25s ease, -ms-transform 3s ease;
+				transition: opacity 1.25s ease, transform 3s ease;
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
@@ -3256,10 +3256,10 @@
 		}
 
 		body.is-loading #header.alt .logo {
-			-moz-transform: scale(0.8) rotate(-60deg);
-			-webkit-transform: scale(0.8) rotate(-60deg);
-			-ms-transform: scale(0.8) rotate(-60deg);
-			transform: scale(0.8) rotate(-60deg);
+			-moz-transform: scale(0) rotate(-360deg);
+			-webkit-transform: scale(0) rotate(-360deg);
+			-ms-transform: scale(0) rotate(-360deg);
+			transform: scale(0) rotate(-360deg);
 		}
 
 /* Nav */
