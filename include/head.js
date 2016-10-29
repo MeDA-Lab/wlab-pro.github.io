@@ -5,19 +5,22 @@ document.write("<link rel=\"stylesheet\" href=\"assets\/css\/main.css\" \/>");
 document.write("<!--[if lte IE 9]><link rel=\"stylesheet\" href=\"assets\/css\/ie9.css\" \/><![endif]-->");
 document.write("<!--[if lte IE 8]><link rel=\"stylesheet\" href=\"assets\/css\/ie8.css\" \/><![endif]-->");
 
-document.write("<link rel=\"apple-touch-icon\" sizes=\"192x192\" href=\"\/images\/logo192.png\" type=\"image\/png\">");
-document.write("<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"\/images\/logo180.png\" type=\"image\/png\">");
-document.write("<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"\/images\/logo152.png\" type=\"image\/png\">");
-document.write("<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"\/images\/logo120.png\" type=\"image\/png\">");
-document.write("<link rel=\"apple-touch-icon\" sizes=\"76x76\"   href=\"\/images\/logo76.png\"  type=\"image\/png\">");
-document.write("<link rel=\"apple-touch-icon\"                   href=\"\/images\/logo57.png\"  type=\"image\/png\">");
-
-document.write("<link rel=\"icon\"             sizes=\"256x256\" href=\"\/images\/logo256.png\" type=\"image\/png\">");
-// Android device High Resolution
-document.write("<link rel=\"icon\"             sizes=\"192x192\" href=\"\/images\/logo192.png\" type=\"image\/png\">");
-// Android device Normal Resolution
-document.write("<link rel=\"icon\"             sizes=\"128x128\" href=\"\/images\/logo128.png\" type=\"image\/png\">");
-
-// Normal icon
-document.write("<link rel=\"icon\"                               href=\"\/images\/logo.ico\"  type=\"image\/vnd.microsoft.icon\">");
-document.write("<link rel=\"shortcut icon\"                      href=\"\/images\/logo.ico\"  type=\"image\/vnd.microsoft.icon\">");
+document.write("<link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"icons\/apple-touch-icon-57x57.png\">");
+document.write("<link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"icons\/apple-touch-icon-60x60.png\">");
+document.write("<link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"icons\/apple-touch-icon-72x72.png\">");
+document.write("<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"icons\/apple-touch-icon-76x76.png\">");
+document.write("<link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"icons\/apple-touch-icon-114x114.png\">");
+document.write("<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"icons\/apple-touch-icon-120x120.png\">");
+document.write("<link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"icons\/apple-touch-icon-144x144.png\">");
+document.write("<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"icons\/apple-touch-icon-152x152.png\">");
+document.write("<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"icons\/apple-touch-icon-180x180.png\">");
+document.write("<link rel=\"icon\" type=\"image\/png\" href=\"icons\/favicon-32x32.png\" sizes=\"32x32\">");
+document.write("<link rel=\"icon\" type=\"image\/png\" href=\"icons\/android-chrome-192x192.png\" sizes=\"192x192\">");
+document.write("<link rel=\"icon\" type=\"image\/png\" href=\"icons\/favicon-16x16.png\" sizes=\"16x16\">");
+document.write("<link rel=\"manifest\" href=\"icons\/manifest.json\">");
+document.write("<link rel=\"mask-icon\" href=\"icons\/safari-pinned-tab.svg\" color=\"#5bbad5\">");
+document.write("<link rel=\"shortcut icon\" href=\"icons\/favicon.ico\">");
+document.write("<meta name=\"msapplication-TileColor\" content=\"#9f00a7\">");
+document.write("<meta name=\"msapplication-TileImage\" content=\"icons\/mstile-144x144.png\">");
+document.write("<meta name=\"msapplication-config\" content=\"icons\/browserconfig.xml\">");
+document.write("<meta name=\"theme-color\" content=\"#ffffff\">");
