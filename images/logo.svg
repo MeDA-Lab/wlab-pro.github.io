@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="85px" height="85px" viewBox="-448 -448 2688 2688" enable-background="new 0 0 80 80" xml:space="preserve">
-	<circle cx="896" cy="896" r="1344" fill="#FFFFFF"/>
-	<g>
-		<path fill="#8cc9f0" d="M352 1280q-66 0-113-47t-47-113v-704q0-66 47-113t113-47h1088q66 0 113 47t47 113v704q0 66-47 113t-113 47h-1088zm-32-864v704q0 13 9.5 22.5t22.5 9.5h1088q13 0 22.5-9.5t9.5-22.5v-704q0-13-9.5-22.5t-22.5-9.5h-1088q-13 0-22.5 9.5t-9.5 22.5zm1376 928h160v96q0 40-47 68t-113 28h-1600q-66 0-113-28t-47-68v-96h1760zm-720 96q16 0 16-16t-16-16h-160q-16 0-16 16t16 16h160z"/>
-	</g>
-	<polyline fill="#FFFFFF" stroke="#A89CC8" stroke-width="64" stroke-linecap="round" stroke-linejoin="round" points="560,560 728,1008 896,672 1064,1008 1232,560"/>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="96px" height="96px" viewBox="-240 -240 2400 2400" enable-background="new 0 0 80 80" xml:space="preserve">
+	<circle cx="960" cy="960" r="1200" fill="#FFFFFF"/>
+	<path transform="translate(64 64)" fill="#8cc9f0" d="M352 1280q-66 0-113-47t-47-113v-704q0-66 47-113t113-47h1088q66 0 113 47t47 113v704q0 66-47 113t-113 47h-1088zm-32-864v704q0 13 9.5 22.5t22.5 9.5h1088q13 0 22.5-9.5t9.5-22.5v-704q0-13-9.5-22.5t-22.5-9.5h-1088q-13 0-22.5 9.5t-9.5 22.5zm1376 928h160v96q0 40-47 68t-113 28h-1600q-66 0-113-28t-47-68v-96h1760zm-720 96q16 0 16-16t-16-16h-160q-16 0-16 16t16 16h160z"/>
+	<polyline fill="none" stroke="#A89CC8" stroke-width="64" stroke-linecap="round" stroke-linejoin="round" points="600,600 780,1080 960,780 1140,1080 1320,600"/>
 </svg>
