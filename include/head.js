@@ -15,10 +15,11 @@ document.write("<link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"icons\/a
 document.write("<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"icons\/apple-touch-icon-152x152.png\">");
 document.write("<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"icons\/apple-touch-icon-180x180.png\">");
 document.write("<link rel=\"icon\" type=\"image\/png\" href=\"icons\/favicon-32x32.png\" sizes=\"32x32\">");
+document.write("<link rel=\"icon\" type=\"image\/png\" href=\"icons\/favicon-194x194.png\" sizes=\"194x194\">");
 document.write("<link rel=\"icon\" type=\"image\/png\" href=\"icons\/android-chrome-192x192.png\" sizes=\"192x192\">");
 document.write("<link rel=\"icon\" type=\"image\/png\" href=\"icons\/favicon-16x16.png\" sizes=\"16x16\">");
 document.write("<link rel=\"manifest\" href=\"icons\/manifest.json\">");
-document.write("<link rel=\"mask-icon\" href=\"icons\/safari-pinned-tab.svg\" color=\"#5bbad5\">");
+document.write("<link rel=\"mask-icon\" href=\"icons\/safari-pinned-tab.svg\" color=\"#8cc9f0\">");
 document.write("<link rel=\"shortcut icon\" href=\"icons\/favicon.ico\">");
 document.write("<meta name=\"msapplication-TileColor\" content=\"#9f00a7\">");
 document.write("<meta name=\"msapplication-TileImage\" content=\"icons\/mstile-144x144.png\">");
