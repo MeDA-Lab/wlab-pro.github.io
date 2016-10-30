@@ -3375,36 +3375,50 @@
 
 		@media screen and (min-width: 737px) {
 
-			#nav .navicon {
+			#nav ul.navibar {
+				display: none;
+			}
+
+			#nav ul.navmenu br {
 				display: none;
 			}
 		}
 
 		@media screen and (max-width: 736px) {
 
-			#nav .navicon {
-				display: block;
-				float: right;
+			#nav ul.navibar {
+				display: inline;
 			}
 
-			#nav ul li {
+				#nav ul.navibar li {
+					display: block;
+					float: left;
+				}
+
+			#nav ul.navmenu {
 				display: none;
-				float: none;
 			}
 
-			#nav ul.responsive {
+			#nav ul.navmenu.responsive {
+				display: inline;
 				position: relative;
 			}
 
-			#nav ul.responsive li {
-				display: inline;
-				float: none;
-			}
+				#nav ul.navmenu.responsive li {
+					display: inline;
+					float: none;
+					margin: auto;
+				}
 
-			#nav ul.responsive li a {
-				display: block;
-				text-align: right;
-			}
+					#nav ul.navmenu.responsive li a {
+						display: block;
+						text-align: left;
+					}
+
+				#nav ul.navmenu.responsive li.desktop {
+					display: none;
+					float: none;
+				}
 
 		}
 
