@@ -8,7 +8,7 @@ document.write("	<\/ul>");
 document.write("	<ul>");
 document.write("	<\/ul>");
 document.write("	<ul id=\"navmenu\" class=\"navmenu\">");
-document.write("	  <br><br>");
+document.write("	  <p style=\"line-height:0.5\"><br><\/p>");
 document.write("		<li class=\"desktop\"><a href=\"\/\"><i class=\"icon fa-home\"><\/i><\/a><\/li>");
 document.write("		<li><a href=\"\/member\/\">Members<\/a><\/li>");
 document.write("		<li><a href=\"\/project\/mcnla\/\">MCNLA<\/a><\/li>");
