@@ -3,7 +3,7 @@ var first = true;
 
 function addAlumnus(id) {
 	xmlhttp = new XMLHttpRequest();
-	xmlhttp.open("GET", '/alumnus/' + id + '/include/info.json', false);
+	xmlhttp.open("GET", '/alumnus/' + id + '/info.json', false);
 	xmlhttp.send(null);
 	var json = JSON.parse(xmlhttp.responseText);
 	var name = json.name;
@@ -30,7 +30,7 @@ function addAlumnus(id) {
 	document.write('				<li><a href="/alumnus/' + id + '/" class="button">Know More</a></i>');
 	document.write('			</ul>');
 	document.write('		</div>');
-	document.write('		<span class="image"><img src="/alumnus/' + id + '/images/avatar.jpg" alt="" /></span>');
+	document.write('		<span class="image"><img src="/alumnus/' + id + '/avatar.jpg" alt="" /></span>');
 	document.write('	</div>');
 	document.write('</section>');
 }

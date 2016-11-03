@@ -3,7 +3,7 @@ var first = true;
 
 function addMember(id) {
 	xmlhttp = new XMLHttpRequest();
-	xmlhttp.open("GET", '/member/' + id + '/include/info.json', false);
+	xmlhttp.open("GET", '/member/' + id + '/info.json', false);
 	xmlhttp.send(null);
 	var json = JSON.parse(xmlhttp.responseText);
 	var name = json.name;
@@ -30,7 +30,7 @@ function addMember(id) {
 	document.write('				<li><a href="/member/' + id + '/" class="button">Know More</a></i>');
 	document.write('			</ul>');
 	document.write('		</div>');
-	document.write('		<span class="image"><img src="/member/' + id + '/images/avatar.jpg" alt="" /></span>');
+	document.write('		<span class="image"><img src="/member/' + id + '/avatar.jpg" alt="" /></span>');
 	document.write('	</div>');
 	document.write('</section>');
 }

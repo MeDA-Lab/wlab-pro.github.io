@@ -2,7 +2,7 @@ var style = 0;
 
 function addProject(id) {
 	xmlhttp = new XMLHttpRequest();
-	xmlhttp.open("GET", '/project/' + id + '/include/info.json', false);
+	xmlhttp.open("GET", '/project/' + id + '/info.json', false);
 	xmlhttp.send(null);
 	var json = JSON.parse(xmlhttp.responseText);
 	var name = json.name;
