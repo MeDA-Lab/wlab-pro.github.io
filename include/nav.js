@@ -11,6 +11,7 @@ document.write("	<ul id=\"navmenu\" class=\"navmenu\">");
 document.write("	  <p style=\"line-height:0.5\"><br><\/p>");
 document.write("		<li class=\"desktop\"><a href=\"\/\"><i class=\"icon fa-home\"><\/i><\/a><\/li>");
 document.write("		<li><a href=\"\/member\/\">Members<\/a><\/li>");
+document.write("		<li><a href=\"\/alumnus\/\">Alumni<\/a><\/li>");
 document.write("		<li><a href=\"\/project\/mcnla\/\">MCNLA<\/a><\/li>");
 document.write("		<li><a href=\"\/project\/isvd\/\">iSVD<\/a><\/li>");
 document.write("		<li><a href=\"\/project\/pass\/\">PaSS<\/a><\/li>");
