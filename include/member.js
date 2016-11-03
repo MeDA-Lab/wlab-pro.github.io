@@ -5,10 +5,9 @@ function addMember(id) {
 	xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", '/member/' + id + '/include/info.json', false);
 	xmlhttp.send(null);
-	var name = JSON.parse(xmlhttp.responseText).name;
-	xmlhttp.open("GET", '/member/' + id + '/include/intro.html', false);
-	xmlhttp.send(null);
-	var intro = xmlhttp.responseText;
+	var json = JSON.parse(xmlhttp.responseText);
+	var name = json.name;
+	var intro = json.intro;
 
 	document.write('<section id="' + id + '" class="main">');
 	if ( first ) {
