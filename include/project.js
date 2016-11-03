@@ -7,9 +7,7 @@ function addProject(id) {
 	var json = JSON.parse(xmlhttp.responseText);
 	var name = json.name;
 	var faicon = json.faicon;
-	xmlhttp.open("GET", '/project/' + id + '/include/intro.html', false);
-	xmlhttp.send(null);
-	var intro = xmlhttp.responseText;
+	var intro = json.intro;
 
 	style%=6;
 	style++;
