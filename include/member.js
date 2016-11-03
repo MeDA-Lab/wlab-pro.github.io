@@ -3,10 +3,10 @@ var first = true;
 
 function addMember(id) {
 	xmlhttp = new XMLHttpRequest();
-	xmlhttp.open("GET",'/member/' + id + '/include/info.json',false);
+	xmlhttp.open("GET", '/member/' + id + '/include/info.json', false);
 	xmlhttp.send(null);
 	var name = JSON.parse(xmlhttp.responseText).name;
-	xmlhttp.open("GET",'/member/' + id + '/include/intro.html',false);
+	xmlhttp.open("GET", '/member/' + id + '/include/intro.html', false);
 	xmlhttp.send(null);
 	var intro = xmlhttp.responseText;
 
@@ -26,7 +26,7 @@ function addMember(id) {
 	document.write('			<header class="major">');
 	document.write('				<h2>' + name + '</h2>');
 	document.write('			</header>');
-	document.write(intro)
+	document.write(intro);
 	document.write('			<ul class="actions">');
 	document.write('				<li><a href="/member/' + id + '/" class="button">Know More</a></i>');
 	document.write('			</ul>');
