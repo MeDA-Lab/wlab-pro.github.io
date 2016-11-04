@@ -3062,7 +3062,13 @@
 				width: 16em;
 			}
 
-			.spotlight ul.alt li .icon {
+			.spotlight ul.intro li {
+		    padding-left: 2.5em;
+		    text-indent: -2.5em;
+			}
+
+			.spotlight ul.intro li .icon {
+				margin-left: 0.5em;
 				margin-right: 1em;
 			}
 
