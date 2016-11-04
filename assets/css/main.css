@@ -3048,27 +3048,27 @@
 
 		@media screen and (min-width: 981px) {
 
-			.spotlight.style1 {
+			.main.style:nth-of-type(odd) .spotlight, .spotlight.style1 {
 				flex-direction: row;
 			}
 
-				.spotlight.style1 .image {
+				.main.style:nth-of-type(odd) .spotlight .image, .spotlight.style1 .image {
 					margin-left: 2em;
 				}
 
-				.spotlight.style1 .icon {
+				.main.style:nth-of-type(odd) .spotlight .icon, .spotlight.style1 .icon {
 					margin-left: 2em;
 				}
 
-			.spotlight.style2 {
+			.main.style:nth-of-type(even) .spotlight, .spotlight.style2 {
 				flex-direction: row-reverse;
 			}
 
-				.spotlight.style2 .image {
+				.main.style:nth-of-type(even) .spotlight .image, .spotlight.style2 .image {
 					margin-right: 2em;
 				}
 
-				.spotlight.style2 .icon {
+				.main.style:nth-of-type(even) .spotlight .icon, .spotlight.style2 .icon {
 					margin-right: 2em;
 				}
 		}
