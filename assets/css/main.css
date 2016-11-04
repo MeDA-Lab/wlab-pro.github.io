@@ -2329,6 +2329,10 @@
 				text-align: center;
 			}
 
+			.icon.major img {
+				width: 10.25em;
+			}
+
 		.icon.alt {
 			display: inline-block;
 			border: solid 1px;
@@ -2374,12 +2378,20 @@
 				font-size: 5.5rem;
 			}
 
+			.icon.major img {
+				width: 10.1em;
+			}
+
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			.icon.major:before {
 				font-size: 4.75rem;
+			}
+
+			.icon.major img {
+				width: 10.25em;
 			}
 
 		}
@@ -2392,6 +2404,10 @@
 
 				.icon.major:before {
 					font-size: 3.5rem;
+				}
+
+				.icon.major img {
+					width: 7.5em;
 				}
 
 		}
@@ -3048,27 +3064,21 @@
 
 		@media screen and (min-width: 981px) {
 
-			.spotlight.style1 {
+			.main.style:nth-of-type(odd) .spotlight, .spotlight.style1 {
 				flex-direction: row;
 			}
 
-				.spotlight.style1 .image {
+				.main.style:nth-of-type(odd) .spotlight .image, .spotlight.style1 .image,
+				.main.style:nth-of-type(odd) .spotlight .icon,  .spotlight.style1 .icon {
 					margin-left: 2em;
 				}
 
-				.spotlight.style1 .icon {
-					margin-left: 2em;
-				}
-
-			.spotlight.style2 {
+			.main.style:nth-of-type(even) .spotlight, .spotlight.style2 {
 				flex-direction: row-reverse;
 			}
 
-				.spotlight.style2 .image {
-					margin-right: 2em;
-				}
-
-				.spotlight.style2 .icon {
+				.main.style:nth-of-type(even) .spotlight .image, .spotlight.style2 .image,
+				.main.style:nth-of-type(even) .spotlight .icon,  .spotlight.style2 .icon {
 					margin-right: 2em;
 				}
 		}
@@ -3152,18 +3162,18 @@
 				-webkit-transition: opacity 3s ease;
 				-ms-transition: opacity 3s ease;
 				transition: opacity 3s ease;
-				-moz-transition-delay: 3s;
-				-webkit-transition-delay: 3s;
-				-ms-transition-delay: 3s;
-				transition-delay: 3s;
+				-moz-transition-delay: 1.5s;
+				-webkit-transition-delay: 1.5s;
+				-ms-transition-delay: 1.5s;
+				transition-delay: 1.5s;
 				opacity: 1;
 			}
 
 			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 3s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 3s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 3s ease;
-				transition: opacity 1.25s ease, transform 3s ease;
+				-moz-transition: opacity 3s ease, -moz-transform 3s ease;
+				-webkit-transition: opacity 3s ease, -webkit-transform 3s ease;
+				-ms-transition: opacity 3s ease, -ms-transform 3s ease;
+				transition: opacity 3s ease, transform 3s ease;
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
