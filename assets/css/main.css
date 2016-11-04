@@ -3062,14 +3062,18 @@
 				width: 16em;
 			}
 
+			.spotlight ul.alt li .icon {
+				margin-right: 1em;
+			}
+
 		@media screen and (min-width: 981px) {
 
 			.main.style:nth-of-type(odd) .spotlight, .spotlight.style1 {
 				flex-direction: row;
 			}
 
-				.main.style:nth-of-type(odd) .spotlight .image, .spotlight.style1 .image,
-				.main.style:nth-of-type(odd) .spotlight .icon,  .spotlight.style1 .icon {
+				.main.style:nth-of-type(odd) .spotlight span.image, .spotlight.style1 span.image,
+				.main.style:nth-of-type(odd) .spotlight span.icon,  .spotlight.style1 span.icon {
 					margin-left: 2em;
 				}
 
@@ -3077,8 +3081,8 @@
 				flex-direction: row-reverse;
 			}
 
-				.main.style:nth-of-type(even) .spotlight .image, .spotlight.style2 .image,
-				.main.style:nth-of-type(even) .spotlight .icon,  .spotlight.style2 .icon {
+				.main.style:nth-of-type(even) .spotlight span.image, .spotlight.style2 span.image,
+				.main.style:nth-of-type(even) .spotlight span.icon,  .spotlight.style2 span.icon {
 					margin-right: 2em;
 				}
 		}
