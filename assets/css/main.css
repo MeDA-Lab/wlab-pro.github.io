@@ -2840,6 +2840,14 @@
 		border-color: rgba(255, 255, 255, 0.35);
 	}
 
+	table.intro tr td:first-child {
+		width: 1em;
+	}
+
+	table.intro tr td:first-child .icon {
+		margin-right: -0.75em;
+	}
+
 /* Features */
 
 	.features {
@@ -3060,16 +3068,6 @@
 				display: block;
 				border-radius: 100%;
 				width: 16em;
-			}
-
-			.spotlight ul.intro li {
-		    padding-left: 2.5em;
-		    text-indent: -2.5em;
-			}
-
-			.spotlight ul.intro li .icon {
-				margin-left: 0.5em;
-				margin-right: 1em;
 			}
 
 		@media screen and (min-width: 981px) {
