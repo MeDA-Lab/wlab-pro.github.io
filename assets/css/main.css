@@ -2318,7 +2318,7 @@
 			cursor: default;
 		}
 
-			.icon.major:before {
+			.icon.major:before, .icon.major.img img {
 				display: inline-block;
 				font-size: 6.25rem;
 				width: 2.25em;
@@ -2327,10 +2327,15 @@
 				border-radius: 100%;
 				border: solid 1px;
 				text-align: center;
+				white-space: pre;
 			}
 
-			.icon.major img {
-				width: 10.25em;
+			.icon.major.img {
+				line-height: 0em;
+			}
+
+			.icon.major.img img {
+				border: none;
 			}
 
 		.icon.alt {
@@ -2374,24 +2379,16 @@
 
 		@media screen and (max-width: 1680px) {
 
-			.icon.major:before {
+			.icon.major:before, .icon.major.img img {
 				font-size: 5.5rem;
-			}
-
-			.icon.major img {
-				width: 10.1em;
 			}
 
 		}
 
 		@media screen and (max-width: 1280px) {
 
-			.icon.major:before {
+			.icon.major:before, .icon.major.img img {
 				font-size: 4.75rem;
-			}
-
-			.icon.major img {
-				width: 10.25em;
 			}
 
 		}
@@ -2402,12 +2399,8 @@
 				padding: 0.35em;
 			}
 
-				.icon.major:before {
+				.icon.major:before, .icon.major.img img {
 					font-size: 3.5rem;
-				}
-
-				.icon.major img {
-					width: 7.5em;
 				}
 
 		}
