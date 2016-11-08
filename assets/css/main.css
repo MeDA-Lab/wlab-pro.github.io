@@ -2462,21 +2462,21 @@
 
 		@media screen and (min-width: 981px) {
 
-			.image.spotleft, .image.spotright {
+			.spotleft, .spotright {
 				max-width: 40%;
 			}
 
-				.image.spotleft img, .image.spotright img {
+				.spotleft img, .spotright img {
 					width: 100%;
 				}
 
-			.image.spotleft {
+			.spotleft {
 				float: left;
 				margin: 0 1.5em 1em 0;
 				top: 0.25em;
 			}
 
-			.image.spotright {
+			.spotright {
 				float: right;
 				margin: 0 0 1em 1.5em;
 				top: 0.25em;
@@ -3096,6 +3096,8 @@
 				.main.style:nth-of-type(odd) .spotlight span.image, .spotlight.style1 span.image,
 				.main.style:nth-of-type(odd) .spotlight span.icon,  .spotlight.style1 span.icon {
 					margin-left: 2em;
+					margin-top: 0em;
+					margin-bottom: 0em;
 				}
 
 			.main.style:nth-of-type(even) .spotlight, .spotlight.style2 {
@@ -3105,6 +3107,8 @@
 				.main.style:nth-of-type(even) .spotlight span.image, .spotlight.style2 span.image,
 				.main.style:nth-of-type(even) .spotlight span.icon,  .spotlight.style2 span.icon {
 					margin-right: 2em;
+					margin-top: 0em;
+					margin-bottom: 0em;
 				}
 		}
 
@@ -3161,7 +3165,7 @@
 /* Header */
 
 	#header {
-		padding: 5em 5em 1em 5em ;
+		padding: 5em 5em 1em 5em;
 		text-align: center;
 	}
 
@@ -3175,7 +3179,7 @@
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 7em 5em 4em 5em;
 		}
 
 			#header.alt h1 {
@@ -3216,11 +3220,11 @@
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				padding: 4em 4em 0.1em 4em ;
+				padding: 4em 4em 0.1em 4em;
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 6em 4em 3em 4em;
 				}
 
 		}
@@ -3228,11 +3232,11 @@
 		@media screen and (max-width: 980px) {
 
 			#header {
-				padding: 4em 3em 0.1em 3em ;
+				padding: 4em 3em 0.1em 3em;
 			}
 
 				#header.alt {
-					padding: 5em 3em 2em 3em ;
+					padding: 5em 3em 2em 3em;
 				}
 
 		}
@@ -3240,7 +3244,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 3em 2em 0.1em 2em ;
+				padding: 3em 2em 0.1em 2em;
 			}
 
 				#header p {
@@ -3253,7 +3257,7 @@
 					}
 
 				#header.alt {
-					padding: 4em 2em 1em 2em ;
+					padding: 4em 2em 1em 2em;
 				}
 
 					#header.alt h1 {
@@ -3265,11 +3269,11 @@
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 3em 1.5em 0.1em 1.5em ;
+				padding: 3em 1.5em 0.1em 1.5em;
 			}
 
 				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
+					padding: 4em 1.5em 1em 1.5em;
 				}
 
 		}
@@ -3277,11 +3281,11 @@
 		@media screen and (max-width: 360px) {
 
 			#header {
-				padding: 2.5em 1em 0.1em 1em ;
+				padding: 2.5em 1em 0.1em 1em;
 			}
 
 				#header.alt {
-					padding: 3.5em 1em 0.5em 1em ;
+					padding: 3.5em 1em 0.5em 1em;
 				}
 
 		}
@@ -3718,7 +3722,7 @@
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 5em 5em 3em 5em;
 			border-top: solid 1px #dddddd;
 		}
 
@@ -3745,7 +3749,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#main > .main {
-				padding: 4em 4em 2em 4em ;
+				padding: 4em 4em 2em 4em;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3758,7 +3762,7 @@
 		@media screen and (max-width: 980px) {
 
 			#main > .main {
-				padding: 4em 3em 2em 3em ;
+				padding: 4em 3em 2em 3em;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3771,7 +3775,7 @@
 		@media screen and (max-width: 736px) {
 
 			#main > .main {
-				padding: 3em 2em 1em 2em ;
+				padding: 3em 2em 1em 2em;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3784,7 +3788,7 @@
 		@media screen and (max-width: 480px) {
 
 			#main > .main {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 3em 1.5em 1em 1.5em;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3801,7 +3805,7 @@
 			}
 
 				#main > .main {
-					padding: 2.5em 1em 0.5em 1em ;
+					padding: 2.5em 1em 0.5em 1em;
 				}
 
 					#main > .main > .image.main:first-child {
@@ -3827,7 +3831,7 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 5em 5em 3em 5em ;
+		padding: 5em 5em 3em 5em;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
 	}
@@ -3845,7 +3849,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 4em 4em 2em 4em ;
+				padding: 4em 4em 2em 4em;
 			}
 
 		}
@@ -3853,7 +3857,7 @@
 		@media screen and (max-width: 980px) {
 
 			#footer {
-				padding: 4em 3em 2em 3em ;
+				padding: 4em 3em 2em 3em;
 				display: block;
 				margin: 0 0 3em 0;
 				width: 100%;
@@ -3865,16 +3869,12 @@
 					margin-bottom: 3em;
 				}
 
-				#footer .copyright {
-					text-align: left;
-				}
-
 		}
 
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3em 2em 1em 2em ;
+				padding: 3em 2em 1em 2em;
 			}
 
 		}
@@ -3882,7 +3882,7 @@
 		@media screen and (max-width: 480px) {
 
 			#footer {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 3em 1.5em 1em 1.5em;
 			}
 
 		}
@@ -3890,7 +3890,7 @@
 		@media screen and (max-width: 480px) {
 
 			#footer {
-				padding: 2.5em 1em 0.5em 1em ;
+				padding: 2.5em 1em 0.5em 1em;
 			}
 
 		}
@@ -3922,7 +3922,7 @@
 /* Sidebar */
 
 	#sidebar {
-		padding: 2.5em 2.5em 0.5em 2.5em ;
+		padding: 2.5em 2.5em 0.5em 2.5em;
 		background: #312450;
 		cursor: default;
 		height: 100vh;
