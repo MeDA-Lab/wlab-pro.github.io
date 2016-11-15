@@ -8,5 +8,5 @@ document.write('			<li><a href="~" class="icon fa-facebook alt" target="_blank">
 document.write('			<li><a href="~" class="icon fa-twitter alt" target="_blank"><span class="label">Twitter</span></a></li>');
 document.write('		</ul>');
 document.write('	</section>');
-document.write('	<p class="copyright">Copyright &copy; <a href="http:/wlab.pro">WLab</a> | Designed by <a href="https:/html5up.net">HTML5 UP</a>.</p>');
+document.write('	<p class="copyright">Copyright &copy; <a href="http:/wlab.pro">WLab</a>. All rights reserved.</p>');
 document.write('</footer>');
