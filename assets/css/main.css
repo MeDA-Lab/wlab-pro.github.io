@@ -1724,7 +1724,6 @@
 	}
 
 	h1, h2, h3 {
-		font-family: "Source Sans Pro Black", Helvetica, sans-serif;
 		font-weight: bold;
 	}
 
@@ -2057,7 +2056,7 @@
 
 /* Tiles */
 
-	#main .tiles {
+	.tiles {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2070,7 +2069,7 @@
 		margin: -2.5em 0 0 -2.5em;
 	}
 
-		#main .tiles article {
+		.tiles article {
 			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
 			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
@@ -2080,7 +2079,7 @@
 			margin: 2.5em 0 0 2.5em;
 		}
 
-			#main .tiles article > .image {
+			.tiles article > .image {
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
@@ -2092,12 +2091,12 @@
 				overflow: hidden;
 			}
 
-				#main .tiles article > .image img {
+				.tiles article > .image img {
 					display: block;
 					width: 100%;
 				}
 
-				#main .tiles article > .image:before {
+				.tiles article > .image:before {
 					-moz-pointer-events: none;
 					-webkit-pointer-events: none;
 					-ms-pointer-events: none;
@@ -2117,7 +2116,7 @@
 					opacity: 0.8;
 				}
 
-				#main .tiles article > .image:after {
+				.tiles article > .image:after {
 					-moz-pointer-events: none;
 					-webkit-pointer-events: none;
 					-ms-pointer-events: none;
@@ -2141,7 +2140,7 @@
 					z-index: 2;
 				}
 
-			#main .tiles article > a {
+			.tiles article > a {
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -2170,31 +2169,24 @@
 				padding: 1em;
 				border-radius: 4px;
 				border-bottom: 0;
-				color: #ffffff;
 				text-align: center;
 				text-decoration: none;
 				z-index: 3;
 			}
 
-				#main .tiles article b,
-				#main .tiles article h1, #main .tiles article h2, #main .tiles article h3,
-				#main .tiles article h4, #main .tiles article h5, #main .tiles article h6 {
-					color: #ffffff;
-				}
-
-				#main .tiles article > a > :last-child {
-					margin: 0;
-				}
-
-				#main .tiles article > a:hover {
+				.tiles article * {
 					color: #ffffff !important;
 				}
 
-				#main .tiles article > a h2 {
+				.tiles article > a > :last-child {
 					margin: 0;
 				}
 
-				#main .tiles article > a .content {
+				.tiles article > a h2 {
+					margin: 0;
+				}
+
+				.tiles article > a .content {
 					-moz-transition: max-height 0.5s ease, opacity 0.5s ease;
 					-webkit-transition: max-height 0.5s ease, opacity 0.5s ease;
 					-ms-transition: max-height 0.5s ease, opacity 0.5s ease;
@@ -2206,60 +2198,60 @@
 					opacity: 0;
 				}
 
-					#main .tiles article > a .content > :last-child {
+					.tiles article > a .content > :last-child {
 						margin-bottom: 0;
 					}
 
-			#main .tiles article.style1 > .image:before {
+			.tiles article.style1 > .image:before {
 				background-color: #9197d7;
 			}
 
-			#main .tiles article.style2 > .image:before {
+			.tiles article.style2 > .image:before {
 				background-color: #9bacde;
 			}
 
-			#main .tiles article.style3 > .image:before {
+			.tiles article.style3 > .image:before {
 				background-color: #96b9e7;
 			}
 
-			#main .tiles article.style4 > .image:before {
+			.tiles article.style4 > .image:before {
 				background-color: #89c4e4;
 			}
 
-			#main .tiles article.style5 > .image:before {
+			.tiles article.style5 > .image:before {
 				background-color: #7fd2cc;
 			}
 
-			#main .tiles article.style6 > .image:before {
+			.tiles article.style6 > .image:before {
 				background-color: #acebdf;
 			}
 
-			body:not(.is-touch) #main .tiles article:hover > .image {
+			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
 				-webkit-transform: scale(1.1);
 				-ms-transform: scale(1.1);
 				transform: scale(1.1);
 			}
 
-				body:not(.is-touch) #main .tiles article:hover > .image:before {
+				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
 					opacity: 0.35;
 				}
 
-				body:not(.is-touch) #main .tiles article:hover > .image:after {
+				body:not(.is-touch) .tiles article:hover > .image:after {
 					opacity: 0;
 				}
 
-			body:not(.is-touch) #main .tiles article:hover .content {
+			body:not(.is-touch) .tiles article:hover .content {
 				max-height: 15em;
 				opacity: 1;
 			}
 
-		* + #main .tiles {
+		* + .tiles {
 			margin-top: 2em;
 		}
 
-		body.is-loading #main .tiles article {
+		body.is-loading .tiles article {
 			-moz-transform: scale(0.9);
 			-webkit-transform: scale(0.9);
 			-ms-transform: scale(0.9);
@@ -2267,18 +2259,18 @@
 			opacity: 0;
 		}
 
-		body.is-touch #main .tiles article .content {
+		body.is-touch .tiles article .content {
 			max-height: 15em;
 			opacity: 1;
 		}
 
 		@media screen and (max-width: 1280px) {
 
-			#main .tiles {
+			.tiles {
 				margin: -1.25em 0 0 -1.25em;
 			}
 
-				#main .tiles article {
+				.tiles article {
 					width: calc(33.33333% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
@@ -2287,11 +2279,11 @@
 
 		@media screen and (max-width: 980px) {
 
-			#main .tiles {
+			.tiles {
 				margin: -2.5em 0 0 -2.5em;
 			}
 
-				#main .tiles article {
+				.tiles article {
 					width: calc(50% - 2.5em);
 					margin: 2.5em 0 0 2.5em;
 				}
@@ -2300,16 +2292,16 @@
 
 		@media screen and (max-width: 736px) {
 
-			#main .tiles {
+			.tiles {
 				margin: -1.25em 0 0 -1.25em;
 			}
 
-				#main .tiles article {
+				.tiles article {
 					width: calc(50% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
-					#main .tiles article:hover > .image {
+					.tiles article:hover > .image {
 						-moz-transform: scale(1.0);
 						-webkit-transform: scale(1.0);
 						-ms-transform: scale(1.0);
@@ -2320,11 +2312,11 @@
 
 		@media screen and (max-width: 480px) {
 
-			#main .tiles {
+			.tiles {
 				margin: 0;
 			}
 
-				#main .tiles article {
+				.tiles article {
 					width: 100%;
 					margin: 1.25em 0 0 0;
 				}
