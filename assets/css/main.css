@@ -2970,11 +2970,6 @@
 		color: #ffffff;
 	}
 
-	ul.indent li {
-		padding-left: 0.75em;
-		text-indent: -0.75em;
-	}
-
 /* Section/Article */
 
 	section.special, article.special {
@@ -3143,22 +3138,6 @@
 
 	table.intro tr td:first-child .icon {
 		margin-right: -0.75em;
-	}
-
-	table.indent tr td:first-child {
-		padding-left: 1.5em;
-		text-indent: -0.75em;
-	}
-
-	table.indent tr td:first-child div {
-		padding-left: 1.5em;
-		text-indent: -0.75em;
-		font-style: italic;
-	}
-
-	table.indent tr td:nth-child(2) {
-		width: 15%;
-		text-align: right;
 	}
 
 /* Features */
