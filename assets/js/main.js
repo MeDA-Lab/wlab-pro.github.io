@@ -105,24 +105,24 @@
 												$section.addClass('inactive');
 
 									},
-									enter: function() {
+									// enter: function() {
 
-										// Activate section.
-											$section.removeClass('inactive');
+									// 	// Activate section.
+									// 		$section.removeClass('inactive');
 
-										// No locked links? Deactivate all links and activate this section's one.
-											if ($nav_a.filter('.active-locked').length == 0) {
+									// 	// No locked links? Deactivate all links and activate this section's one.
+									// 		if ($nav_a.filter('.active-locked').length == 0) {
 
-												$nav_a.removeClass('active');
-												$this.addClass('active');
+									// 			$nav_a.removeClass('active');
+									// 			$this.addClass('active');
 
-											}
+									// 		}
 
-										// Otherwise, if this section's link is the one that's locked, unlock it.
-											else if ($this.hasClass('active-locked'))
-												$this.removeClass('active-locked');
+									// 	// Otherwise, if this section's link is the one that's locked, unlock it.
+									// 		else if ($this.hasClass('active-locked'))
+									// 			$this.removeClass('active-locked');
 
-									}
+									// }
 								});
 
 						});
