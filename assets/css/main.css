@@ -3689,14 +3689,14 @@
 
 		@media screen and (min-width: 737px) {
 
-			#nav .mobile {
+			#nav li.navicon a > .icon {
 				display: none;
 			}
 		}
 
 		@media screen and (max-width: 736px) {
 
-			#nav .desktop {
+			#nav li.navicon a > :not(.icon) {
 				display: none;
 			}
 
@@ -3706,6 +3706,7 @@
 
 			#nav {
 				max-width: calc(100% - 2em);
+				font-size: 12px;
 			}
 
 		}
@@ -3714,10 +3715,6 @@
 
 			#nav {
 				max-width: 100%;
-			}
-
-			#nav .mobile {
-				font-size: 12px;
 			}
 
 		}
