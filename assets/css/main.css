@@ -3689,50 +3689,16 @@
 
 		@media screen and (min-width: 737px) {
 
-			#nav ul.navibar {
-				display: none;
-			}
-
-			#nav ul.navmenu p {
+			#nav .mobile {
 				display: none;
 			}
 		}
 
 		@media screen and (max-width: 736px) {
 
-			#nav ul.navibar {
-				display: inline;
-			}
-
-				#nav ul.navibar li {
-					display: block;
-					float: left;
-				}
-
-			#nav ul.navmenu {
+			#nav .desktop {
 				display: none;
 			}
-
-			#nav ul.navmenu.responsive {
-				display: inline;
-				position: relative;
-			}
-
-				#nav ul.navmenu.responsive li {
-					display: inline;
-					float: none;
-					margin: auto;
-				}
-
-					#nav ul.navmenu.responsive li a {
-						display: block;
-						text-align: left;
-					}
-
-				#nav ul.navmenu.responsive li.desktop {
-					display: none;
-					float: none;
-				}
 
 		}
 
@@ -3748,6 +3714,10 @@
 
 			#nav {
 				max-width: 100%;
+			}
+
+			#nav .mobile {
+				font-size: 12px;
 			}
 
 		}

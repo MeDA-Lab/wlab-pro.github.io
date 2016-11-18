@@ -1,36 +1,22 @@
 document.write('<nav id="nav">');
-document.write('	<ul class="navibar">');
-document.write('		<li><a href="javascript:void(0);" onclick="openNav();"><i class="icon fa-bars"></i></a></li>');
-document.write('		<li><a href=""><i class="icon fa-home"></i></a></li>');
-document.write('		<li><a href="#footer" onclick="closeNav();setTimeout(updateNav, 0);"><i class="icon fa-share-alt" title="Links"></i></a></li>');
-document.write('		<li><a href="#header" onclick="closeNav();setTimeout(updateNav, 0);"><i class="icon fa-angle-double-up" title="Top"></i></a></li>');
-document.write('	</ul>');
-document.write('	<ul id="navmenu" class="navmenu">');
-document.write('	  <p style="line-height:0.5"><br></p>');
-document.write('		<li class="desktop"><a href="#header" onclick="setTimeout(updateNav, 0);" title="Top"><i class="icon fa-angle-double-up"></i></a></li>');
-document.write('		<li class="desktop"><a href="" title="Home"><i class="icon fa-home"></i></a></li>');
+document.write('	<a href="javascript:void(0);" style="display:none"></a>');
+document.write('	<ul class="desktop">');
+document.write('		<li><a href="#header" onclick="setTimeout(updateNav, 0);" title="Top"><i class="icon fa-angle-double-up"></i></a></li>');
+document.write('		<li><a href="" title="Home"><i class="icon fa-home"></i></a></li>');
 document.write('		<li><a href="project/">Projects</a></li>');
 document.write('		<li><a href="member/">Members</a></li>');
-document.write('		<li><a href="alumnus/">Alumni</a></li>');
-document.write('		<li class="desktop"><a href="#footer" onclick="setTimeout(updateNav, 0);" title="Links"><i class="icon fa-share-alt"></i></a></li>');
-document.write('		<li class="desktop"><a href="#header" onclick="setTimeout(updateNav, 0);" title="Top"><i class="icon fa-angle-double-up"></i></a></li>');
+document.write('		<li><a href="#footer" onclick="setTimeout(updateNav, 0);" title="Links"><i class="icon fa-share-alt"></i></a></li>');
+document.write('		<li><a href="#header" onclick="setTimeout(updateNav, 0);" title="Top"><i class="icon fa-angle-double-up"></i></a></li>');
+document.write('	</ul>');
+document.write('	<ul class="mobile">');
+document.write('		<li><a href="" title="Home"><i class="icon fa-home"></i></a></li>');
+document.write('		<li><a href="project/" title="Projects"><i class="icon fa-puzzle-piece"></i></a></li>');
+document.write('		<li><a href="member/" title="Members"><i class="icon fa-users"></i></a></li>');
+document.write('		<li><a href="#footer" onclick="setTimeout(updateNav, 0);" title="Links"><i class="icon fa-share-alt"></i></a></li>');
+document.write('		<li><a href="#header" onclick="setTimeout(updateNav, 0);" title="Top"><i class="icon fa-angle-double-up"></i></a></li>');
 document.write('	</ul>');
 document.write('</nav>');
 
-
-function openNav() {
-	var x = document.getElementById('navmenu');
-	if (x.className === 'navmenu') {
-		x.className = 'navmenu responsive';
-	} else {
-		x.className = 'navmenu';
-	}
-}
-
-function closeNav() {
-	var x = document.getElementById('navmenu');
-	x.className = 'navmenu';
-}
 
 function updateNav() {
 	navlist = document.getElementById('nav').getElementsByTagName('a');
