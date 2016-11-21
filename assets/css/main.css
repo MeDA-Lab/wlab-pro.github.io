@@ -3700,12 +3700,16 @@
 				display: none;
 			}
 
+			#nav li.desktop {
+				display: none;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
 
 			#nav {
-				max-width: calc(100% - 2em);
+				max-width: calc(100% - 2rem);
 				font-size: 11px;
 			}
 
