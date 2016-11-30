@@ -3283,6 +3283,10 @@
 					line-height: 1.3;
 				}
 
+				.statistics li img {
+					width: 3.575rem;
+				}
+
 		@media screen and (max-width: 980px) {
 
 			.statistics li strong, .statistics li b {
@@ -3312,6 +3316,10 @@
 
 				.statistics li .icon:before {
 					font-size: 3.75rem;
+				}
+
+				.statistics li img {
+					width: 4.875rem;
 				}
 
 				.statistics li strong, .statistics li b {
