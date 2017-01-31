@@ -3231,6 +3231,10 @@
 			text-align: center;
 		}
 
+			.statistics li * {
+				color: #ffffff !important;
+			}
+
 			.statistics li.style1 {
 				background-color: #9197d7;
 			}
@@ -3703,6 +3707,10 @@
 		}
 
 		@media screen and (max-width: 736px) {
+
+			#nav ul li a {
+				padding: 0 1em;
+			}
 
 			#nav li.navicon a > :not(.icon) {
 				display: none;

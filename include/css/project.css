@@ -1,5 +1,9 @@
 /* Project */
 
+.spotlight {
+	align-items: flex-start;
+}
+
 li img.wlab {
 	content: url("../../images/favicon.svg");
 	vertical-align: middle;
