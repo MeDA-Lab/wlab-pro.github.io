@@ -1,13 +1,15 @@
 /* Project */
 
-.spotlight {
-	align-items: flex-start;
-}
-
 li img.wlab {
 	content: url("../../images/favicon.svg");
 	vertical-align: middle;
 	width: 22px;
 	margin-left: -24px;
 	margin-right: 2px;
+}
+
+@media screen and (min-width: 981px) {
+	.spotlight {
+		align-items: flex-start;
+	}
 }
