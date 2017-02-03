@@ -28,16 +28,16 @@ body.is-loading .features li > * {
 }
 
 body.is-loading .features li span.icon.major.img {
-	-moz-transform: scale(0.9);
-	-webkit-transform: scale(0.9);
-	-ms-transform: scale(0.9);
-	transform: scale(0.9);
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	transform: scale(0.5);
 	opacity: 0;
 }
 
 body:not(.is-touch) .features li span.icon.major.img:hover {
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
+	-moz-transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
 }

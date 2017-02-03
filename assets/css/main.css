@@ -3709,7 +3709,7 @@
 		@media screen and (max-width: 736px) {
 
 			#nav ul li a {
-				padding: 0 1em;
+				padding: 0 .8em;
 			}
 
 			#nav li.navicon a > :not(.icon) {
@@ -3723,6 +3723,10 @@
 		}
 
 		@media screen and (max-width: 480px) {
+
+			#nav ul li a {
+				padding: 0 1em;
+			}
 
 			#nav {
 				max-width: calc(100% - 2rem);
@@ -4149,7 +4153,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 360px) {
 
 			#footer {
 				padding: 2.5em 1em 0.5em 1em;

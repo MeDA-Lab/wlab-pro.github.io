@@ -6,7 +6,7 @@ document.write(
 + '		<li class="navicon"><a href="project"><i class="icon fa-puzzle-piece"></i><span>Highlights</span></a></li>\n'
 + '		<li class="navicon"><a href="member"><i class="icon fa-users"></i><span>About Us</span></a></li>\n'
 + '		<li class="navicon"><a href="gallery"><i class="icon fa-photo"></i><span>Gallery</span></a></li>\n'
-+ '		<li><a href="#footer" onclick="setTimeout(updateNav, 0);"><i class="icon fa-share-alt"></i></a></li>\n'
++ '		<li><a href="#footer" onclick="setTimeout(updateNav, 0);"><i class="icon fa-link"></i></a></li>\n'
 + '		<li><a href="#header" onclick="setTimeout(updateNav, 0);"><i class="icon fa-angle-double-up"></i></a></li>\n'
 + '	</ul>\n'
 + '</nav>\n'
