@@ -32,10 +32,12 @@
 										<header class="major">
 											<h2>Po-Chuan Wang</h2>
 										</header>
-										<p align="center">
-											<i class="fa fa-cog fa-spin fa-5x fa-fw"></i><br>
-											<font size="+8">Under Construction</font>
-										</p>
+                    <div id="cv">
+                      <p align="center">
+                        <i class="fa fa-spinner fa-spin fa-5x fa-fw"></i><br>
+                        <font size="+8">Loading...</font>
+                      </p>
+                    </div>
 									</div>
 								</div>
 							</section>
@@ -49,6 +51,25 @@
 
 		<!-- Scripts -->
 			<script src="include/js/script.js"></script>
+      <script src="member/nanaha/js/marked.js"></script>
+      <script type="text/javascript">
+        var cvFile = 'member/nanaha/cv.md';
+        function getContents(URL) {
+          var result = null;
+          $.ajax({
+            url: URL,
+            type: 'get',
+            dataType: 'html',
+            async: false,
+            success: function(data) { result = data; }
+          });
+          FileReady = true;
+          return result;
+        }
+
+        var cvSource = getContents(cvFile);
+        document.getElementById('cv').innerHTML = marked(cvSource);
+      </script>
 
 	</body>
 </html>
