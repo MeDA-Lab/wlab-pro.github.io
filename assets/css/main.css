@@ -3376,6 +3376,10 @@
 
 		@media screen and (min-width: 981px) {
 
+			.spotlight.style1, .spotlight.style2 {
+				align-items:flex-start;
+			}
+
 			.main.style:nth-of-type(odd) .spotlight, .spotlight.style1 {
 				flex-direction: row;
 			}
