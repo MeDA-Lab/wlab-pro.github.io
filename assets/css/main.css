@@ -3374,7 +3374,19 @@
 				width: 16em;
 			}
 
+		div.spotlight.style1 div.content > :not(header) {
+			text-align: left;
+		}
+
+		div.spotlight.style2 div.content > :not(header) {
+			text-align: left;
+		}
+
 		@media screen and (min-width: 981px) {
+
+			.spotlight.style1, .spotlight.style2 {
+				align-items:flex-start;
+			}
 
 			.main.style:nth-of-type(odd) .spotlight, .spotlight.style1 {
 				flex-direction: row;
